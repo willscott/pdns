@@ -1,0 +1,13 @@
+$ORIGIN example.com.
+$TTL 3600
+
+@ IN SOA ns1.example.com. postmaster.example.com. (
+	1706265777
+	3600
+	3600
+	36000
+	3600
+	)
+
+@	A	192.168.0.1
+dynamic  AAAA	2001:0000:1234::1

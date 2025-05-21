@@ -1,0 +1,15 @@
+$ORIGIN 4.3.2.1.0.0.0.0.1.0.0.2.ip6.arpa.
+$TTL 3600
+
+4.3.2.1.0.0.0.0.1.0.0.2.ip6.arpa. IN SOA ns1.example.com. postmaster.example.com. (
+	2025052109 ; remember to change this with other changes.
+	3600
+	3600
+	36000
+	3600
+	)
+
+	IN	NS	ns1.example.com.
+	IN	NS	ns2.example.com.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.3.2.1.0.0.0.0.1.0.0.2.ip6.arpa. IN PTR dynamic.example.com.
